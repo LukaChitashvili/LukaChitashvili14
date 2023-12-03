@@ -139,7 +139,7 @@ a {
   text-decoration: none;
 }
 
-body {
+nav {
   padding-top: 24px;
   padding-left: 99px;
 }
@@ -194,4 +194,37 @@ body {
 
 #check {
   display: none;
+}
+
+.banner {
+  background-image: url(../images/image.png);
+  background-repeat: no-repeat;
+  height: 606px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner h1 {
+  font-family: helvetica, sans-serif;
+  font-size: 79px;
+  font-weight: 700;
+  line-height: 91px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.banner h2 {
+  font-family: helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 91px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
 }/*# sourceMappingURL=global.css.map */

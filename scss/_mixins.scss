@@ -4,3 +4,13 @@
   justify-content: $justify;
   align-items: $align;
 }
+
+@mixin section($justifly: center, $direction: column) {
+  align-items: $align;
+  justify-content: $justifly;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-direction: $direction;
+}

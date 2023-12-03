@@ -1,4 +1,4 @@
-body {
+nav {
   padding-top: 24px;
   padding-left: 99px;
 }
@@ -49,3 +49,50 @@ body {
 #check {
   display: none;
 }
+
+.banner {
+  @include section;
+  background-image: url(../images/image.png);
+  height: 606px;
+  width: 100%;
+}
+
+.banner h1 {
+  font-family: helvetica, sans-serif;
+  font-size: 79px;
+  font-weight: 700;
+  line-height: 91px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: $second-color;
+}
+
+.banner h2 {
+  font-family: helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 91px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: $second-color;
+}
+
+// .content {
+
+//   display: flex;
+//   flex-direction: column;
+//   margin-left: 100px;
+//   margin-top: 84px;
+//   width: 200px;
+//   height: 200px;
+// }
+
+// .content h3 {
+//   font-family: helvetica, sans-serif;
+//   font-size: 18px;
+//   font-weight: 400;
+//   line-height: 20px;
+//   letter-spacing: 0em;
+//   text-align: left;
+//   color: #636060;
+// }
