@@ -14,3 +14,8 @@
   background-repeat: no-repeat;
   flex-direction: $direction;
 }
+
+@mixin MyConctainer {
+  margin: 0 auto;
+  width: 1200px;
+}
